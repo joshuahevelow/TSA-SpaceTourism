@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+* { 
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-bar{
   display: flex;
-  flex-direction: column;
+  background: black;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 20% !important;
+  width: 100% !important;
+  padding-bottom: 40px;
+}
+
+.nav-item{
+  font-size: 24px;
   color: white;
+  padding: 10px 20px 10px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 0 0 10px 10px;
+  width: calc(100% / 7);
+  text-align: center;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item:hover{
+  background-color: #d9d9d980;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#gap:hover{
+  background-color: transparent !important;
+}
+
+.nav-line-straight-left{
+  display: block;
+  background-color: #FF614C;
+  padding: 1px;
+  width: 40% !important;
+  height: 5px !important;
+  margin-top: -32px;
+}
+
+.nav-line-angle-left{
+  display: block;
+  background-color: #FF614C;
+  padding: 1px;
+  width: 6px !important;
+  height: 30px !important;
+  transform: skewX(30deg);
+  margin-left: 40.5%;
+  margin-top: -7px;
+}
+
+.nav-line-angle-right{
+  display: block;
+  background-color: #FF614C;
+  padding: 1px;
+  width: 6px !important;
+  height: 30px !important;
+  transform: skewX(-30deg);
+  margin-right: 40.5%;
+  margin-top: -32px;
+  float: right;
+}
+
+.nav-line-straight-right{
+  display: block;
+  background-color: #FF614C;
+  float: right;
+  padding: 1px;
+  margin-top: -32px;
+  width: 40% !important;
+  height: 5px !important;
+}
+
+.nav-line-straight-center{
+  display: block;
+  background-color: #FF614C;
+  padding: 1px;
+  width: 17.5% !important;
+  height: 5px !important;
+  margin-left: 41.25%;
+  z-index: 0;
+  margin-top: -7px;
+}
+
+/*CITATION: hexagon styling from https://jtauber.github.io/articles/css-hexagon.html*/
+.hexagon{
+  margin-top: 113px;
+  position: absolute;
+}
+
+#hexagon-top{
+  width: 0 !important;
+  border-bottom: 33.75px solid #FF614C;
+  border-left: 58.5px solid transparent;
+  border-right: 58.5px solid transparent;
+}
+
+#hexagon-middle{
+  width: 117px;
+  height: 67.5px;
+  background-color: #FF614C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible !important;
+}
+
+#hexagon-bottom{
+  width: 0 !important;
+  border-top: 33.75px solid #FF614C;
+  border-left: 58.5px solid transparent;
+  border-right: 58.5px solid transparent;
+}
+
+.bg-image{
+  position: absolute;
+  z-index: -1;
+  margin-top: -100px;
+}
+
+#home-title{
+  font-size: 96px;
+  text-align: center;
+  color: #FF614C;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+#home-subtitle{
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  margin-top: -15px;
+}
+
+.begin-button{
+  font-family: "Audiowide", sans-serif !important;
+  color: white;
+  font-size: 32px;
+  width: 20vw;
+  margin-left: 40vw;
+  margin-top: 120px;
+  height: 8vh;
+  border: none;
+}
+
+.begin-button:hover{
+  opacity: 0.75;
+}
+
+#begin-button-outline{
+  border: 3px solid #FF614C;
+  background-color: transparent;
+  width: calc(20vw + 5px);
+  margin-left: calc(40vw - 5px);
+  height: calc(8vh + 5px);
+  margin-top: calc(-8vh - 5px);
 }
