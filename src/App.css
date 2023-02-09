@@ -13,7 +13,8 @@
 }
 
 .nav-item{
-  font-size: 24px;
+  font-family: "Nico Moji" !important;
+  font-size: 32px;
   color: white;
   padding: 10px 20px 10px 20px;
   margin-left: 10px;
@@ -122,22 +123,24 @@
 }
 
 #home-title{
-  font-size: 96px;
+  font-family: "Nico Moji" !important;
+  font-size: 128px;
   text-align: center;
   color: #FF614C;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 0;
 }
 
 #home-subtitle{
+  font-family: "Nico Moji" !important;
   font-size: 24px;
   text-align: center;
   color: white;
-  margin-top: -15px;
+  margin-top: 5px;
 }
 
 .begin-button{
-  font-family: "Audiowide", sans-serif !important;
+  font-family: "Nico Moji" !important;
   color: white;
   font-size: 32px;
   width: 20vw;
@@ -158,4 +161,10 @@
   margin-left: calc(40vw - 5px);
   height: calc(8vh + 5px);
   margin-top: calc(-8vh - 5px);
+}
+
+@font-face {
+  font-family: "Nico Moji";
+  src: local("NicoMoji-Regular"),
+    url("./Fonts/nicomoji/NicoMoji-Regular.ttf") format("truetype");
 }
