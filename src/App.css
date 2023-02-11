@@ -113,9 +113,11 @@
 }
 
 .bg-image{
-  position: absolute;
+  position: fixed;
+  top:0;
   z-index: -1;
-  margin-top: -100px;
+  height: 100vh;
+  width: 100vw;
 }
 
 #home-title{
@@ -157,6 +159,59 @@
   margin-left: calc(40vw - 5px);
   height: calc(8vh + 5px);
   margin-top: calc(-8vh - 5px);
+}
+
+.voyages-container{
+  background-image: url("https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3BhY2UlMjBzdGFyc3xlbnwwfHwwfHw%3D&w=1000&q=80");
+  width:100%;
+  height:100%; 
+}
+
+.planet{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  margin-top: 20.5vh;
+  margin-left: 20vw;
+  float: left;
+}
+
+.planet-button{
+  background-color: #FF614C;
+}
+
+.planet-info{
+  color: white;
+  text-align: left;
+  float: right;
+  width: 40vw;
+  margin-top: 19vh;
+  padding-right: 10vw;
+  font-family: "Nico Moji";
+}
+
+.planet-name{
+  font-size: 80px;
+  margin: 0;
+}
+
+
+.planet-cost{
+  font-size: 18px;
+  margin: 0;
+}
+
+
+.planet-subtitle{
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.planet-description{
+  font-size: 24px;
+  margin: 20px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @font-face {
