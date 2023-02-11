@@ -1,0 +1,122 @@
+#return-bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgb(24, 24, 24, 1);
+}
+
+
+#return-title{
+    font-family: "Nico Moji" !important;
+    font-size: 128px;
+    text-align: center;
+    color: #FF614C;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+
+/*Title for each individual vehicle*/
+#return-title{
+    position: absolute;
+    font-family: "Times New Roman" !important;
+    margin-top: -300vh;
+    z-index: 10;
+    justify-self: center;
+    font-size: 108px;
+    text-align: center;
+    color: white;
+}
+
+#return-subtitle{
+    position: absolute;
+    font-family: "Times New Roman" !important;
+    margin-top: -240vh;
+    z-index: 10;
+    justify-self: center;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    word-spacing: 30px;
+}
+
+#return-arrow-down{
+    position: fixed;
+    margin-top: -100vh;
+    scale: .2;
+    z-index: 51;
+}
+
+#return-desc{
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    color: red;
+    position: relative;
+    z-index: 50;
+    margin-top: -170vh;
+    margin-left: 10vh;
+}
+
+.center-contents{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.return-box{
+    display: flex;
+    z-index: 10;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 47, 64, 0.5);
+}
+
+.full-bg{
+    position: absolute;
+    margin-top: -10vh;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+
+.return-description{
+    background-color: rgba(226, 226, 226, 1);
+    width: 94%;
+    height: 20%;
+    padding-left: 2%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    margin-top: -11vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+}
+
+.return-text{
+    float: left;
+    color: black;
+    width: 60%;
+    line-height: 40px;
+    font-size: 22px;
+    font-family: 'Times New Roman';
+}
+
+.return-description-logo{
+    width: 120px;
+    height: 120px;
+    margin-top: 3vh;
+}
+
+.return-speed{
+    font-family: "Nico Moji";
+    color: black;
+    margin-right: 4vw;
+    font-size: 32px;
+    float: right;
+    margin-top: 7vh;
+    line-height: 45px;
+}
