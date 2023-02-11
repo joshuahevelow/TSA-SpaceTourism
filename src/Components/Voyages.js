@@ -1,13 +1,22 @@
 import React from 'react';
 import NavBar from './NavBar';
 
+import mercuryImage from '../Pictures/Mercury.png';
+import venusImage from '../Pictures/Venus.png';
+import earthImage from '../Pictures/Earth.png';
+import marsImage from '../Pictures/Mars.png';
+import jupiterImage from '../Pictures/Jupiter.png';
+import saturnImage from '../Pictures/Saturn.png';
+import uranusImage from '../Pictures/Uranus.png';
+import neptuneImage from '../Pictures/Neptune.png';
+
 export default function Voyages() {
 
   return (
     <div className='voyages-container'>
       <img className='bg-image' src="https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3BhY2UlMjBzdGFyc3xlbnwwfHwwfHw%3D&w=1000&q=80" alt="background stars" />
       <div>  
-        <div className='planet'/>
+        <img className='planet' id="mercury" src={mercuryImage}/>
         <div className='planet-info'>
           <h1 className="planet-name">MERCURY</h1>
           <p className='planet-cost'>Cost: $4500/night</p>
@@ -17,7 +26,7 @@ export default function Voyages() {
       </div>
   
       <div>  
-        <div className='planet'/>
+        <img className='planet' id="venus" src={venusImage}/>
         <div className='planet-info'>
           <h1 className="planet-name">VENUS</h1>
           <p className='planet-cost'>Cost: $5000/night</p>
@@ -27,7 +36,7 @@ export default function Voyages() {
       </div>
 
       <div>  
-        <div className='planet'/>
+        <img className='planet' id="earth" src={earthImage}/>
         <div className='planet-info'>
           <h1 className="planet-name">EARTH</h1>
           <p className='planet-cost'>Cost: Check local deals</p>
@@ -37,7 +46,7 @@ export default function Voyages() {
       </div>
 
       <div>  
-        <div className='planet'/>
+        <img className='planet' id="mars" src={marsImage}/>
         <div className='planet-info'>
           <h1 className="planet-name">MARS</h1>
           <p className='planet-cost'>Cost: $3000/night</p>
@@ -47,7 +56,7 @@ export default function Voyages() {
       </div> 
 
       <div>  
-        <div className='planet'/>
+        <img className='planet' id="jupiter" src={jupiterImage}/>
         <div className='planet-info'>
           <h1 className="planet-name">JUPITER</h1>
           <p className='planet-cost'>Cost: $6500/night</p>
@@ -57,7 +66,7 @@ export default function Voyages() {
       </div>
 
       <div>  
-        <div className='planet'/>
+      <img className='planet' id="saturn" src={saturnImage}/>
         <div className='planet-info'>
           <h1 className="planet-name">SATURN</h1>
           <p className='planet-cost'>Cost: $6000/night</p>
@@ -67,7 +76,7 @@ export default function Voyages() {
       </div>
 
       <div>  
-        <div className='planet'/>
+      <img className='planet' id="uranus" src={uranusImage}/>
         <div className='planet-info'>
           <h1 className="planet-name">URANUS</h1>
           <p className='planet-cost'>Cost: $4000/night</p>
@@ -77,7 +86,7 @@ export default function Voyages() {
       </div>
 
       <div>  
-        <div className='planet'/>
+      <img className='planet' id="neptune" src={neptuneImage}/>
         <div className='planet-info'>
           <h1 className="planet-name">NEPTUNE</h1>
           <p className='planet-cost'>Cost: $2000/night</p>
