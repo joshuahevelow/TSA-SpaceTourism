@@ -1,11 +1,12 @@
 import React from 'react'
 import NavBar from './NavBar';
 
-export default function Sub1() {
+
+export default function Return() {
   return (
     <>
       <div>
-      <h1 style={{color:'black'}}>Sub1</h1>
+        <h1 style={{color:'black'}}>Details</h1>
       </div>
     </>
   )

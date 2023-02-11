@@ -9,8 +9,8 @@ export default function NavBar() {
   return (
       <>
         <nav className='nav-bar'>
-            <Link to="/sub1" className='nav-item'>Sub1</Link>
             <Link to="/" className='nav-item'>Home</Link>
+            <Link to="/preparation" className='nav-item'>Preparation</Link>
             <Link to="/voyages" className='nav-item'>Voyages</Link>
             <a className='nav-item' id='gap'>&nbsp;</a>
             <div className='hexagon'>
@@ -22,8 +22,8 @@ export default function NavBar() {
               <div id='hexagon-bottom' />
             </div>
             <Link to="/vehicles" className='nav-item'>Vehicles</Link>
-            <Link to="/details" className='nav-item'>Details</Link>
-            <Link to="/sub6"className='nav-item'>Sub6</Link>
+            <Link to="/return" className='nav-item'>Return</Link>
+            <Link to="/references"className='nav-item'>References</Link>
         </nav>
         <div className='nav-line-straight-left' />
         <div className='nav-line-angle-left' />

@@ -1,12 +1,11 @@
 import React from 'react'
 import NavBar from './NavBar';
 
-
-export default function Details() {
+export default function Preparation() {
   return (
     <>
       <div>
-        <h1 style={{color:'black'}}>Details</h1>
+      <h1 style={{color:'black'}}>Sub1</h1>
       </div>
     </>
   )

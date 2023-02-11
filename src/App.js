@@ -3,11 +3,11 @@ import { useState } from "react";
 import "./Fonts/nicomoji/NicoMoji-Regular.ttf";
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
-import Sub1 from './Components/Sub1';
+import Preparation from './Components/Preparation';
 import Voyages from './Components/Voyages';
 import Vehicles from './Components/Vehicles';
-import Details from './Components/Details';
-import Sub6 from './Components/Sub6';
+import Return from './Components/Return';
+import References from './Components/References';
 
 import { Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -25,11 +25,11 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Home/>}/>;
-        <Route path="/sub1" element={<Sub1/>}/>;
+        <Route path="/preparation" element={<Preparation/>}/>;
         <Route path="/voyages" element={<Voyages/>}/>;
         <Route path="/vehicles" element={<Vehicles/>}/>;
-        <Route path="/details" element={<Details/>}/>;
-        <Route path="/sub6" element={<Sub6/>}/>;
+        <Route path="/return" element={<Return/>}/>;
+        <Route path="/references" element={<References/>}/>;
       </Routes>
     </>
   );

@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar';
 
-export default function Sub6() {
+export default function References() {
   return (
     <>
       <div>
