@@ -1,0 +1,61 @@
+.page-top{
+    font-family: "Nico Moji";
+    float: left;
+    padding-left: 5%;
+    color: white;
+}
+
+.heading-underline{
+    width: 100%;
+    height: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: white;
+}
+
+.page-subheading{
+    margin-left: 7% !important;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 30px !important;
+}
+
+.page-subheading:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#arrow{
+    scale: 0.1;
+    transform: rotate(-90deg);
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.page-info{
+    height: 42vh !important;
+    width: 70%;
+    margin-top: 18%;
+    margin-left: 15%;
+    background-color: rgba(255, 97, 76, 0.5);
+    color: white;
+    font-family: "Nico Moji";
+    padding: 1% 1% 1% 1%;
+    overflow: hidden !important;
+}
+
+#info-body{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+@keyframes text-up{
+    from{transform: translateY(0);}
+    to{transform: translateY(-50vh);}
+}
+
+@keyframes text-down{
+    from{transform: translateY(-50vh);}
+    to{transform: translateY(0);}
+}

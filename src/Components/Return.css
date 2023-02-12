@@ -7,17 +7,15 @@
 }
 
 
-#return-title{
+/*#return-title{
     font-family: "Nico Moji" !important;
     font-size: 128px;
     text-align: center;
     color: #FF614C;
     margin-top: 50px;
     margin-bottom: 0;
-}
+}*/
 
-
-/*Title for each individual vehicle*/
 #return-title{
     position: absolute;
     font-family: "Times New Roman" !important;
