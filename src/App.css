@@ -242,6 +242,12 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.ref-pdf{
+  width: 80%;
+  height: 100vh;
+  margin: 10%;
+}
+
 @font-face {
   font-family: "Nico Moji";
   src: local("NicoMoji-Regular"),

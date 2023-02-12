@@ -50,7 +50,7 @@ export default function Preparation() {
                           designed to maximize both comfort and safety. Your suit will be supplied with a double tank of oxygen,
                           ensuring that you will be given plenty of fresh air as you take your journey through the stars. Every
                           flight is led by two pilots with countless years of experience, as well as 4 flight attendants to monitor
-                          and potential safety concerns. Our triple-cushioned seats, which are part of every one of our space vessels,
+                          any potential safety concerns. Our triple-cushioned seats, which are part of every one of our space vessels,
                           reduce bumps and bruises by 99%, and our two-way seatbelts keep you secured to your seat, even in zero
                           gravity!</p>
       </div>
